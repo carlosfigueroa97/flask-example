@@ -1,4 +1,6 @@
 from flask import Flask, render_template
+from waitress import serve
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -24,4 +26,4 @@ def page_not_found(error):
     return "<h1>Página no encontrada</h1>"
 
 if __name__ == '__main__':
-    app.run(port=80, debug=True)
+    serve(app, host='localhost', port=80)
