@@ -1,1 +1,21 @@
-pip install flask
+astroid==2.2.5
+Click==7.0
+colorama==0.4.1
+experta==1.9.2
+Flask==1.1.1
+frozendict==1.2
+isort==4.3.21
+itsdangerous==1.1.0
+Jinja2==2.10.3
+lazy-object-proxy==1.4.1
+MarkupSafe==1.1.1
+mccabe==0.6.1
+pylint==2.3.1
+PyMySQL==0.9.3
+redis==3.3.8
+schema==0.6.7
+six==1.12.0
+typed-ast==1.4.0
+virtualenv==16.7.7
+Werkzeug==0.16.0
+wrapt==1.11.2
